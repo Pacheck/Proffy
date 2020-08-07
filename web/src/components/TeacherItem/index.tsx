@@ -18,7 +18,7 @@ function TeacherItem() {
         </div>
       </header>
 
-      <p>Apaixonado por Javascript e entusiasta com React</p>
+      <p>Apaixonado por Javascript e tecnologias</p>
 
       <footer>
         <p>
