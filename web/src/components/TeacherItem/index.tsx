@@ -14,7 +14,7 @@ function TeacherItem() {
         />
         <div>
           <strong>Pedro Pacheco</strong>
-          <span>Física</span>
+          <span>Programação</span>
         </div>
       </header>
 
@@ -23,7 +23,7 @@ function TeacherItem() {
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 50</strong>
+          <strong>R$ 40</strong>
         </p>
         <button type="button">
           <img src={whatsappIcon} alt="Whatsapp" />
