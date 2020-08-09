@@ -43,7 +43,7 @@ export default class ClassesController {
 
   async create(req: Request, res: Response) {
     const { name, avatar, whatsapp, bio, subject, cost, schedule } = req.body;
-
+  
     const trx = await db.transaction();
 
     try {
@@ -79,6 +79,7 @@ export default class ClassesController {
 
       return res.status(201).send({ message: 'Sucesso' });
     } catch (err) {
+      console.log(err);
       await trx.rollback();
 
       return res.status(400).json({
